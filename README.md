@@ -1,27 +1,38 @@
-# AngularNestjs
+![Angular8 NestJS Backend](https://i.ytimg.com/vi/AmF_BTzJdFY/maxresdefault.jpg)
+# Angular8 SSR Nestjs Backed
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
-## Development server
+## Development Angular Frontend
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Development Angular8  port 4200 and NestJS Backend
+
+Run `npm run serve or yarn serve` for a dev server. Navigate to `http://localhost:4200/api`. The app will automatically reload if you change any of the source files
+angular and nestjs.
+
+## Access NestJS sources files
+See `server folder to look for sources files`
+
+
+## Code Angular scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Code NestJS scaffolding
 
-## Running unit tests
+```bash
+$ nest generate <schematic> <name> [options]
+$ nest g <schematic> <name> [options]
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+RUN `nest g application <name> | nest g cntroller <name> |  nest g cllass <name> | nest g guard  <name>`
+see more detail https://docs.nestjs.com/cli/usages
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Build and Run Angular SSR With Nestjs
 
-## Further help
+Run `npm run build:ssr && npm run serve:ssr` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
